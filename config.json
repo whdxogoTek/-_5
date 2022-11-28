@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "김종태 "
+  },
+  "text": {
+    "more": "\u003cp\u003e\n방향: 대표발의자 -\u003e 소관위원회\n\u003c/p\u003e\n\n\u003cp\u003e\n노드 크기: 국회의원이 제출한 법안의 전문 분야 총 수  (In - Degree) \n\u003c/p\u003e\n\n\u003cp\u003e\n엣지 크기: 국회회의원이 특정 전문 분야에 제출한 법안의 횟수 (Weight)\n\u003c/p\u003e\n\n\u003c/p\u003e\n파티션: 정당\n\u003c/p\u003e\n\n\n\n\n",
+    "intro": "대표발의자와 소관위원회의 관계 네트워크입니다. 국회의원들이 대표법안을 제출할 때\n어떤 주제로 많이 제출할까요? \n\n ",
+    "title": "대표발의자와 공동발의자 법안 지지 네트워크 "
+  },
+  "legend": {
+    "edgeLabel": "대표발의자와 소관위원회의 관계",
+    "colorLabel": "정당",
+    "nodeLabel": "대표발의자,  소관위원회"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "대표발의자 정당",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": "대표발의자 정당"
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
